@@ -103,7 +103,7 @@
       <AdditionalLibraryDirectories>..\..\..\3rdparty\Andor\FRAPPA SDK 0.3\Drivers\Win32;$(MM_BOOST_LIBDIR);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>XCOPY /Y /C /F $(TargetPath) "C:\Users\Andor\Desktop\Pariksheet\Micro-Manager-1.4.19_$(PlatformShortName)\"</Command>
+      <Command>XCOPY /Y /C /F $(TargetPath) "C:\Users\Andor\Desktop\Pariksheet\Micro-Manager-1.4.22_20150630_$(PlatformShortName)\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -119,7 +119,7 @@
       <AdditionalLibraryDirectories>..\..\..\3rdparty\Andor\FRAPPA SDK 0.3\Drivers\x64\;$(MM_BOOST_LIBDIR);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>XCOPY /Y /C /F $(TargetPath) "C:\Users\Andor\Desktop\Pariksheet\Micro-Manager-1.4.19_$(PlatformShortName)\"</Command>
+      <Command>XCOPY /Y /C /F $(TargetPath) "C:\Users\Andor\Desktop\Pariksheet\Micro-Manager-1.4.22_20150630_$(PlatformShortName)\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
